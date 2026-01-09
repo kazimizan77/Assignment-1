@@ -54,7 +54,7 @@
 
 .hero {
     position: relative;
-    min-height: 60vh;
+    min-height: 65vh;
     width: 100%;
     background-image: url("./assets/hero-bg.png");
     background-size: cover;
@@ -63,8 +63,7 @@
     align-items: center;
     justify-content: center;
     color: #fff;
-    background: linear-gradient rgba(48, 51, 46, 0.85),
-        rgba(10, 30, 50, 0.85);
+    background: linear-gradient #627382
 }
 
 .hero-overlay {
@@ -174,10 +173,8 @@
 }
 
 .problem-section {
-    background-color: white padding: 120px 20px;
-    margin-top: 20px;
-    margin-bottom: 12px;
-    
+    padding: 40px 120px;
+    background: #ffffff;
 }
 
 .problem-container {
@@ -187,7 +184,7 @@
 }
 
 .problem-title {
-    font-size: 40px;
+    font-size: 50px;
     font-weight: 700;
     color: #0b2a44;
     margin-bottom: 12px;
@@ -195,22 +192,23 @@
 
 .problem-subtitle {
     font-size: 16px;
+    font-weight: 400;
     color: #7b8a9a;
-    max-width: 700px;
+    /* max-width: 700px; */
     margin: 0 auto 70px;
-    line-height: 1.6;
+    /* line-height: 1.6; */
 }
 
 .problem-cards {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 30px;
+    gap: 16px;
 }
 
 .problem-card {
-    background-color: #fff;
-    padding: 45px 30px;
-    border-radius: 18px;
+    background: #ffffff;
+    padding: 18px;
+    border-radius: 10px;
     box-shadow: 0 25px 60px rgba(0, 0, 0, 0.25);
 }
 
@@ -228,7 +226,7 @@
 }
 
 .problem-card h3 {
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 600;
     color: #0f172a;
     margin-bottom: 10px;
@@ -318,13 +316,6 @@
     height: auto;
 }
 
-/* .brain-features li::before {
-    position: absolute;
-    left: 0;
-    top: 0;
-    color: #2f855a;
-    font-weight: bold;
-} */
 
 .early-access-section {
     padding: 80px 40px;
@@ -376,7 +367,7 @@
 }
 
 .footer {
-    padding: 30px 120px;
+    padding: 120px 120px 30px 120px;
     background: var(--Style, rgba(0, 25, 49, 1));
     color: #ffffff;
 }
@@ -386,6 +377,7 @@
     margin: 0 auto;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     gap: 80px;
 }
 
@@ -401,16 +393,17 @@
     gap: 12px;
 }
 
-.footer-log img {
+.footer-logo img {
     width: 140px;
     height: auto;
 }
 
 .footer-social p {
     margin-bottom: 12px;
-    font-size: 18px;
+    font-size: 20px;
     color: rgba(255, 255, 255, 1);
     text-align: center;
+
 }
 
 .social-icons {
@@ -419,17 +412,14 @@
 }
 
 .social-icons a {
-    width: 32px;
-    height: 32px;
+    width: 20px;
+    height: 20px;
     background: #fff;
     color: #001931;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    text-decoration: none;
-    font-weight: bold;
-    transition: 0.3s;
 }
 
 .footer hr {
