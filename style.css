@@ -20,13 +20,13 @@
     justify-content: space-between;
 }
 
-.nav-logo{
+.nav-logo {
     display: flex;
     align-items: center;
     gap: 10px;
 }
 
-.nav-logo img{
+.nav-logo img {
     width: 140px;
 }
 
@@ -94,7 +94,7 @@
 .badge {
     display: inline-flex;
     align-items: center;
-    gap: px;
+    gap: 6px;
     background-color: #ffffff;
     color: #2f855a;
     padding: 8px 12px;
@@ -213,7 +213,7 @@
 
 .Notes-card {
     background: #ffffff;
-    padding: 18px;
+    padding: 20px;
     border-radius: 10px;
     box-shadow: 0 25px 60px rgba(0, 0, 0, 0.25);
 }
@@ -231,14 +231,14 @@
     font-size: 22px;
 }
 
-.problem-card h3 {
+.Notes-card h3 {
     font-size: 24px;
     font-weight: 600;
     color: #0f172a;
     margin-bottom: 10px;
 }
 
-.problem-card p {
+.Notes-card p {
     font-size: 15px;
     color: #64748b;
     line-height: 1.6;
@@ -291,8 +291,7 @@
     color: #64748b;
     line-height: 20px;
     margin-bottom: 30px;
-    max-width: 520px;
-    text-align: left;
+    text-align: justify;
 }
 
 .brain-features {
